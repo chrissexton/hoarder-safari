@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3667B58E2CC040ED00BB7C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B58D2CC040ED00BB7C08 /* AppDelegate.swift */; };
+		3667B5902CC040ED00BB7C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B58F2CC040ED00BB7C08 /* SceneDelegate.swift */; };
+		3667B5932CC040ED00BB7C08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5922CC040ED00BB7C08 /* Base */; };
+		3667B5962CC040ED00BB7C08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5952CC040ED00BB7C08 /* Base */; };
+		3667B59F2CC040ED00BB7C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B59E2CC040ED00BB7C08 /* AppDelegate.swift */; };
+		3667B5A22CC040ED00BB7C08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5A12CC040ED00BB7C08 /* Base */; };
+		3667B5AA2CC040ED00BB7C08 /* Hoarder Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3667B5A92CC040ED00BB7C08 /* Hoarder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3667B5B42CC040ED00BB7C08 /* Hoarder Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3667B5B32CC040ED00BB7C08 /* Hoarder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3667B5BA2CC040ED00BB7C08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3667B57E2CC040EB00BB7C08 /* Base */; };
+		3667B5BB2CC040ED00BB7C08 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3667B57E2CC040EB00BB7C08 /* Base */; };
+		3667B5BC2CC040ED00BB7C08 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B57F2CC040EB00BB7C08 /* Icon.png */; };
+		3667B5BD2CC040ED00BB7C08 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B57F2CC040EB00BB7C08 /* Icon.png */; };
+		3667B5BE2CC040ED00BB7C08 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5802CC040EB00BB7C08 /* Style.css */; };
+		3667B5BF2CC040ED00BB7C08 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5802CC040EB00BB7C08 /* Style.css */; };
+		3667B5C02CC040ED00BB7C08 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5812CC040EB00BB7C08 /* Script.js */; };
+		3667B5C12CC040ED00BB7C08 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5812CC040EB00BB7C08 /* Script.js */; };
+		3667B5C22CC040ED00BB7C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B5822CC040EB00BB7C08 /* ViewController.swift */; };
+		3667B5C32CC040ED00BB7C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B5822CC040EB00BB7C08 /* ViewController.swift */; };
+		3667B5C42CC040ED00BB7C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5832CC040ED00BB7C08 /* Assets.xcassets */; };
+		3667B5C52CC040ED00BB7C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5832CC040ED00BB7C08 /* Assets.xcassets */; };
+		3667B5C62CC040ED00BB7C08 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B5852CC040ED00BB7C08 /* SafariWebExtensionHandler.swift */; };
+		3667B5C72CC040ED00BB7C08 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667B5852CC040ED00BB7C08 /* SafariWebExtensionHandler.swift */; };
+		3667B5E42CC040ED00BB7C08 /* logo-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5D92CC040ED00BB7C08 /* logo-128.png */; };
+		3667B5E52CC040ED00BB7C08 /* service-worker-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DA2CC040ED00BB7C08 /* service-worker-loader.js */; };
+		3667B5E62CC040ED00BB7C08 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DB2CC040ED00BB7C08 /* index.html */; };
+		3667B5E72CC040ED00BB7C08 /* logo-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DC2CC040ED00BB7C08 /* logo-16.png */; };
+		3667B5E82CC040ED00BB7C08 /* logo-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DD2CC040ED00BB7C08 /* logo-48.png */; };
+		3667B5E92CC040ED00BB7C08 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DE2CC040ED00BB7C08 /* public */; };
+		3667B5EA2CC040ED00BB7C08 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DF2CC040ED00BB7C08 /* logo.png */; };
+		3667B5EB2CC040ED00BB7C08 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E02CC040ED00BB7C08 /* manifest.json */; };
+		3667B5EC2CC040ED00BB7C08 /* logo-full-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E12CC040ED00BB7C08 /* logo-full-white.png */; };
+		3667B5ED2CC040ED00BB7C08 /* logo-full.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E22CC040ED00BB7C08 /* logo-full.png */; };
+		3667B5EE2CC040ED00BB7C08 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E32CC040ED00BB7C08 /* assets */; };
+		3667B5EF2CC040ED00BB7C08 /* logo-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5D92CC040ED00BB7C08 /* logo-128.png */; };
+		3667B5F02CC040ED00BB7C08 /* service-worker-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DA2CC040ED00BB7C08 /* service-worker-loader.js */; };
+		3667B5F12CC040ED00BB7C08 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DB2CC040ED00BB7C08 /* index.html */; };
+		3667B5F22CC040ED00BB7C08 /* logo-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DC2CC040ED00BB7C08 /* logo-16.png */; };
+		3667B5F32CC040ED00BB7C08 /* logo-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DD2CC040ED00BB7C08 /* logo-48.png */; };
+		3667B5F42CC040ED00BB7C08 /* public in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DE2CC040ED00BB7C08 /* public */; };
+		3667B5F52CC040ED00BB7C08 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5DF2CC040ED00BB7C08 /* logo.png */; };
+		3667B5F62CC040ED00BB7C08 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E02CC040ED00BB7C08 /* manifest.json */; };
+		3667B5F72CC040ED00BB7C08 /* logo-full-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E12CC040ED00BB7C08 /* logo-full-white.png */; };
+		3667B5F82CC040ED00BB7C08 /* logo-full.png in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E22CC040ED00BB7C08 /* logo-full.png */; };
+		3667B5F92CC040ED00BB7C08 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 3667B5E32CC040ED00BB7C08 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3667B5AB2CC040ED00BB7C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3667B5772CC040EB00BB7C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3667B5A82CC040ED00BB7C08;
+			remoteInfo = "Hoarder Extension (iOS)";
+		};
+		3667B5B52CC040ED00BB7C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3667B5772CC040EB00BB7C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3667B5B22CC040ED00BB7C08;
+			remoteInfo = "Hoarder Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3667B5CD2CC040ED00BB7C08 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3667B5AA2CC040ED00BB7C08 /* Hoarder Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5D42CC040ED00BB7C08 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3667B5B42CC040ED00BB7C08 /* Hoarder Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3667B57E2CC040EB00BB7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3667B57F2CC040EB00BB7C08 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3667B5802CC040EB00BB7C08 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3667B5812CC040EB00BB7C08 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3667B5822CC040EB00BB7C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3667B5832CC040ED00BB7C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3667B5852CC040ED00BB7C08 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3667B58A2CC040ED00BB7C08 /* Hoarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667B58D2CC040ED00BB7C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3667B58F2CC040ED00BB7C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3667B5922CC040ED00BB7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3667B5952CC040ED00BB7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3667B5972CC040ED00BB7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3667B59C2CC040ED00BB7C08 /* Hoarder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoarder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667B59E2CC040ED00BB7C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3667B5A12CC040ED00BB7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3667B5A32CC040ED00BB7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3667B5A42CC040ED00BB7C08 /* Hoarder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hoarder.entitlements; sourceTree = "<group>"; };
+		3667B5A92CC040ED00BB7C08 /* Hoarder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hoarder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667B5AE2CC040ED00BB7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3667B5B32CC040ED00BB7C08 /* Hoarder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hoarder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3667B5B82CC040ED00BB7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3667B5B92CC040ED00BB7C08 /* Hoarder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hoarder.entitlements; sourceTree = "<group>"; };
+		3667B5D92CC040ED00BB7C08 /* logo-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-128.png"; path = "../../dist/logo-128.png"; sourceTree = "<group>"; };
+		3667B5DA2CC040ED00BB7C08 /* service-worker-loader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "service-worker-loader.js"; path = "../../dist/service-worker-loader.js"; sourceTree = "<group>"; };
+		3667B5DB2CC040ED00BB7C08 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../dist/index.html; sourceTree = "<group>"; };
+		3667B5DC2CC040ED00BB7C08 /* logo-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-16.png"; path = "../../dist/logo-16.png"; sourceTree = "<group>"; };
+		3667B5DD2CC040ED00BB7C08 /* logo-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-48.png"; path = "../../dist/logo-48.png"; sourceTree = "<group>"; };
+		3667B5DE2CC040ED00BB7C08 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = public; path = ../../dist/public; sourceTree = "<group>"; };
+		3667B5DF2CC040ED00BB7C08 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../dist/logo.png; sourceTree = "<group>"; };
+		3667B5E02CC040ED00BB7C08 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../dist/manifest.json; sourceTree = "<group>"; };
+		3667B5E12CC040ED00BB7C08 /* logo-full-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-full-white.png"; path = "../../dist/logo-full-white.png"; sourceTree = "<group>"; };
+		3667B5E22CC040ED00BB7C08 /* logo-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-full.png"; path = "../../dist/logo-full.png"; sourceTree = "<group>"; };
+		3667B5E32CC040ED00BB7C08 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../dist/assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3667B5872CC040ED00BB7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5992CC040ED00BB7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5A62CC040ED00BB7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5B02CC040ED00BB7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3667B5762CC040EB00BB7C08 = {
+			isa = PBXGroup;
+			children = (
+				3667B57B2CC040EB00BB7C08 /* Shared (App) */,
+				3667B5842CC040ED00BB7C08 /* Shared (Extension) */,
+				3667B58C2CC040ED00BB7C08 /* iOS (App) */,
+				3667B59D2CC040ED00BB7C08 /* macOS (App) */,
+				3667B5AD2CC040ED00BB7C08 /* iOS (Extension) */,
+				3667B5B72CC040ED00BB7C08 /* macOS (Extension) */,
+				3667B58B2CC040ED00BB7C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3667B57B2CC040EB00BB7C08 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B5822CC040EB00BB7C08 /* ViewController.swift */,
+				3667B5832CC040ED00BB7C08 /* Assets.xcassets */,
+				3667B57C2CC040EB00BB7C08 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		3667B57C2CC040EB00BB7C08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3667B57D2CC040EB00BB7C08 /* Main.html */,
+				3667B57F2CC040EB00BB7C08 /* Icon.png */,
+				3667B5802CC040EB00BB7C08 /* Style.css */,
+				3667B5812CC040EB00BB7C08 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3667B5842CC040ED00BB7C08 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B5D82CC040ED00BB7C08 /* Resources */,
+				3667B5852CC040ED00BB7C08 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		3667B58B2CC040ED00BB7C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3667B58A2CC040ED00BB7C08 /* Hoarder.app */,
+				3667B59C2CC040ED00BB7C08 /* Hoarder.app */,
+				3667B5A92CC040ED00BB7C08 /* Hoarder Extension.appex */,
+				3667B5B32CC040ED00BB7C08 /* Hoarder Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3667B58C2CC040ED00BB7C08 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B58D2CC040ED00BB7C08 /* AppDelegate.swift */,
+				3667B58F2CC040ED00BB7C08 /* SceneDelegate.swift */,
+				3667B5912CC040ED00BB7C08 /* LaunchScreen.storyboard */,
+				3667B5942CC040ED00BB7C08 /* Main.storyboard */,
+				3667B5972CC040ED00BB7C08 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		3667B59D2CC040ED00BB7C08 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B59E2CC040ED00BB7C08 /* AppDelegate.swift */,
+				3667B5A02CC040ED00BB7C08 /* Main.storyboard */,
+				3667B5A32CC040ED00BB7C08 /* Info.plist */,
+				3667B5A42CC040ED00BB7C08 /* Hoarder.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		3667B5AD2CC040ED00BB7C08 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B5AE2CC040ED00BB7C08 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3667B5B72CC040ED00BB7C08 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3667B5B82CC040ED00BB7C08 /* Info.plist */,
+				3667B5B92CC040ED00BB7C08 /* Hoarder.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3667B5D82CC040ED00BB7C08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3667B5D92CC040ED00BB7C08 /* logo-128.png */,
+				3667B5DA2CC040ED00BB7C08 /* service-worker-loader.js */,
+				3667B5DB2CC040ED00BB7C08 /* index.html */,
+				3667B5DC2CC040ED00BB7C08 /* logo-16.png */,
+				3667B5DD2CC040ED00BB7C08 /* logo-48.png */,
+				3667B5DE2CC040ED00BB7C08 /* public */,
+				3667B5DF2CC040ED00BB7C08 /* logo.png */,
+				3667B5E02CC040ED00BB7C08 /* manifest.json */,
+				3667B5E12CC040ED00BB7C08 /* logo-full-white.png */,
+				3667B5E22CC040ED00BB7C08 /* logo-full.png */,
+				3667B5E32CC040ED00BB7C08 /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3667B5892CC040ED00BB7C08 /* Hoarder (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3667B5CE2CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder (iOS)" */;
+			buildPhases = (
+				3667B5862CC040ED00BB7C08 /* Sources */,
+				3667B5872CC040ED00BB7C08 /* Frameworks */,
+				3667B5882CC040ED00BB7C08 /* Resources */,
+				3667B5CD2CC040ED00BB7C08 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3667B5AC2CC040ED00BB7C08 /* PBXTargetDependency */,
+			);
+			name = "Hoarder (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Hoarder (iOS)";
+			productReference = 3667B58A2CC040ED00BB7C08 /* Hoarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3667B59B2CC040ED00BB7C08 /* Hoarder (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3667B5D52CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder (macOS)" */;
+			buildPhases = (
+				3667B5982CC040ED00BB7C08 /* Sources */,
+				3667B5992CC040ED00BB7C08 /* Frameworks */,
+				3667B59A2CC040ED00BB7C08 /* Resources */,
+				3667B5D42CC040ED00BB7C08 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3667B5B62CC040ED00BB7C08 /* PBXTargetDependency */,
+			);
+			name = "Hoarder (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Hoarder (macOS)";
+			productReference = 3667B59C2CC040ED00BB7C08 /* Hoarder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3667B5A82CC040ED00BB7C08 /* Hoarder Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3667B5CA2CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder Extension (iOS)" */;
+			buildPhases = (
+				3667B5A52CC040ED00BB7C08 /* Sources */,
+				3667B5A62CC040ED00BB7C08 /* Frameworks */,
+				3667B5A72CC040ED00BB7C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hoarder Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Hoarder Extension (iOS)";
+			productReference = 3667B5A92CC040ED00BB7C08 /* Hoarder Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3667B5B22CC040ED00BB7C08 /* Hoarder Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3667B5D12CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder Extension (macOS)" */;
+			buildPhases = (
+				3667B5AF2CC040ED00BB7C08 /* Sources */,
+				3667B5B02CC040ED00BB7C08 /* Frameworks */,
+				3667B5B12CC040ED00BB7C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hoarder Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Hoarder Extension (macOS)";
+			productReference = 3667B5B32CC040ED00BB7C08 /* Hoarder Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3667B5772CC040EB00BB7C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3667B5892CC040ED00BB7C08 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3667B59B2CC040ED00BB7C08 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3667B5A82CC040ED00BB7C08 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3667B5B22CC040ED00BB7C08 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 3667B57A2CC040EB00BB7C08 /* Build configuration list for PBXProject "Hoarder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3667B5762CC040EB00BB7C08;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3667B58B2CC040ED00BB7C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3667B5892CC040ED00BB7C08 /* Hoarder (iOS) */,
+				3667B59B2CC040ED00BB7C08 /* Hoarder (macOS) */,
+				3667B5A82CC040ED00BB7C08 /* Hoarder Extension (iOS) */,
+				3667B5B22CC040ED00BB7C08 /* Hoarder Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3667B5882CC040ED00BB7C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5BC2CC040ED00BB7C08 /* Icon.png in Resources */,
+				3667B5932CC040ED00BB7C08 /* Base in Resources */,
+				3667B5BA2CC040ED00BB7C08 /* Base in Resources */,
+				3667B5C02CC040ED00BB7C08 /* Script.js in Resources */,
+				3667B5C42CC040ED00BB7C08 /* Assets.xcassets in Resources */,
+				3667B5962CC040ED00BB7C08 /* Base in Resources */,
+				3667B5BE2CC040ED00BB7C08 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B59A2CC040ED00BB7C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5BD2CC040ED00BB7C08 /* Icon.png in Resources */,
+				3667B5BF2CC040ED00BB7C08 /* Style.css in Resources */,
+				3667B5A22CC040ED00BB7C08 /* Base in Resources */,
+				3667B5C12CC040ED00BB7C08 /* Script.js in Resources */,
+				3667B5C52CC040ED00BB7C08 /* Assets.xcassets in Resources */,
+				3667B5BB2CC040ED00BB7C08 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5A72CC040ED00BB7C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5F12CC040ED00BB7C08 /* index.html in Resources */,
+				3667B5EF2CC040ED00BB7C08 /* logo-128.png in Resources */,
+				3667B5F32CC040ED00BB7C08 /* logo-48.png in Resources */,
+				3667B5F82CC040ED00BB7C08 /* logo-full.png in Resources */,
+				3667B5F42CC040ED00BB7C08 /* public in Resources */,
+				3667B5F62CC040ED00BB7C08 /* manifest.json in Resources */,
+				3667B5F52CC040ED00BB7C08 /* logo.png in Resources */,
+				3667B5F02CC040ED00BB7C08 /* service-worker-loader.js in Resources */,
+				3667B5F72CC040ED00BB7C08 /* logo-full-white.png in Resources */,
+				3667B5F22CC040ED00BB7C08 /* logo-16.png in Resources */,
+				3667B5F92CC040ED00BB7C08 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5B12CC040ED00BB7C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5E62CC040ED00BB7C08 /* index.html in Resources */,
+				3667B5E42CC040ED00BB7C08 /* logo-128.png in Resources */,
+				3667B5E82CC040ED00BB7C08 /* logo-48.png in Resources */,
+				3667B5ED2CC040ED00BB7C08 /* logo-full.png in Resources */,
+				3667B5E92CC040ED00BB7C08 /* public in Resources */,
+				3667B5EB2CC040ED00BB7C08 /* manifest.json in Resources */,
+				3667B5EA2CC040ED00BB7C08 /* logo.png in Resources */,
+				3667B5E52CC040ED00BB7C08 /* service-worker-loader.js in Resources */,
+				3667B5EC2CC040ED00BB7C08 /* logo-full-white.png in Resources */,
+				3667B5E72CC040ED00BB7C08 /* logo-16.png in Resources */,
+				3667B5EE2CC040ED00BB7C08 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3667B5862CC040ED00BB7C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5C22CC040ED00BB7C08 /* ViewController.swift in Sources */,
+				3667B58E2CC040ED00BB7C08 /* AppDelegate.swift in Sources */,
+				3667B5902CC040ED00BB7C08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5982CC040ED00BB7C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5C32CC040ED00BB7C08 /* ViewController.swift in Sources */,
+				3667B59F2CC040ED00BB7C08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5A52CC040ED00BB7C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5C62CC040ED00BB7C08 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3667B5AF2CC040ED00BB7C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667B5C72CC040ED00BB7C08 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3667B5AC2CC040ED00BB7C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3667B5A82CC040ED00BB7C08 /* Hoarder Extension (iOS) */;
+			targetProxy = 3667B5AB2CC040ED00BB7C08 /* PBXContainerItemProxy */;
+		};
+		3667B5B62CC040ED00BB7C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3667B5B22CC040ED00BB7C08 /* Hoarder Extension (macOS) */;
+			targetProxy = 3667B5B52CC040ED00BB7C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3667B57D2CC040EB00BB7C08 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3667B57E2CC040EB00BB7C08 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3667B5912CC040ED00BB7C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3667B5922CC040ED00BB7C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3667B5942CC040ED00BB7C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3667B5952CC040ED00BB7C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3667B5A02CC040ED00BB7C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3667B5A12CC040ED00BB7C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3667B5C82CC040ED00BB7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3667B5C92CC040ED00BB7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3667B5CB2CC040ED00BB7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoarder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder.Extension;
+				PRODUCT_NAME = "Hoarder Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3667B5CC2CC040ED00BB7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoarder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder.Extension;
+				PRODUCT_NAME = "Hoarder Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3667B5CF2CC040ED00BB7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hoarder;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder;
+				PRODUCT_NAME = Hoarder;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3667B5D02CC040ED00BB7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hoarder;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder;
+				PRODUCT_NAME = Hoarder;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3667B5D22CC040ED00BB7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hoarder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoarder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder.Extension;
+				PRODUCT_NAME = "Hoarder Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3667B5D32CC040ED00BB7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hoarder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoarder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder.Extension;
+				PRODUCT_NAME = "Hoarder Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3667B5D62CC040ED00BB7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hoarder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hoarder;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder;
+				PRODUCT_NAME = Hoarder;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3667B5D72CC040ED00BB7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hoarder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Hoarder;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Hoarder;
+				PRODUCT_NAME = Hoarder;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3667B57A2CC040EB00BB7C08 /* Build configuration list for PBXProject "Hoarder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667B5C82CC040ED00BB7C08 /* Debug */,
+				3667B5C92CC040ED00BB7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3667B5CA2CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667B5CB2CC040ED00BB7C08 /* Debug */,
+				3667B5CC2CC040ED00BB7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3667B5CE2CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667B5CF2CC040ED00BB7C08 /* Debug */,
+				3667B5D02CC040ED00BB7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3667B5D12CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667B5D22CC040ED00BB7C08 /* Debug */,
+				3667B5D32CC040ED00BB7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3667B5D52CC040ED00BB7C08 /* Build configuration list for PBXNativeTarget "Hoarder (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3667B5D62CC040ED00BB7C08 /* Debug */,
+				3667B5D72CC040ED00BB7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3667B5772CC040EB00BB7C08 /* Project object */;
+}
